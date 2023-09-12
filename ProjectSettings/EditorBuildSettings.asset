@@ -17,5 +17,8 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/afterbazuso.unity
     guid: 5e3f031bacfae4a1b84f0b14551db43e
+  - enabled: 1
+    path: Assets/Scenes/firstgriffithlook.unity
+    guid: e6ab738dd22c545e2a0886413675a011
   m_configObjects:
     com.unity.input.settings: {fileID: 11400000, guid: ad33800867e29470398a94de9ea7e450, type: 2}

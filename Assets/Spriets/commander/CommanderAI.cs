@@ -98,7 +98,7 @@ public class CommanderAI : MonoBehaviour
                 yield return new WaitForSeconds(0.5f);
             }
 
-            if (dialogue.GetCounter() == 15) { cutscene.SetActive(false); Player.GetComponent<SpriteRenderer>().flipX = false; Debug.Log("Getcounter(13)"); Player.GetComponent<Player>().MoveTo(new Vector3(Player.transform.position.x+10, Player.transform.position.y, Player.transform.position.z),0.3f); ; yield return new WaitForSeconds(12); SceneManager.LoadScene(0); }
+            if (dialogue.GetCounter() == 15) { cutscene.SetActive(false); Player.GetComponent<SpriteRenderer>().flipX = false; Debug.Log("Getcounter(13)"); Player.GetComponent<Player>().MoveTo(new Vector3(Player.transform.position.x+10, Player.transform.position.y, Player.transform.position.z),0.3f); ; yield return new WaitForSeconds(12); SceneManager.LoadScene(4); }
         }
     }
 }
